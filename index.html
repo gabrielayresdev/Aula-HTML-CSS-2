@@ -1,28 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="icon" href="../icon-logo.png" type="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="../icon-logo.png" type="image/png" />
     <title>Zoetrope</title>
-</head>
-<body>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="menu">
-        <img src="../icon-logo.png" alt="logo">
-        <h4>Zoetrope</h4>
-        <a style="text-decoration: none;color: white;" href="pagina.Recursos">Recursos</a>
-        <a style="text-decoration: none;color: white;" href="pagina.Sobre">Sobre</a>
-        <a style="text-decoration: none;color: white;" href="pagina.Contato">Contato</a>
-        <a href="https://www.youtube.com/"><button style="border-radius: 5px;border: 50px;" type="button">Baixar Aplicativo</button></a>
+      <div class="logo">
+        <img src="../icon-logo.png" alt="logo" />
+        <h1>Zoetrope</h1>
+      </div>
+      <nav>
+        <a style="text-decoration: none; color: white" href="pagina.Recursos"
+          >Recursos</a
+        >
+        <a style="text-decoration: none; color: white" href="pagina.Sobre"
+          >Sobre</a
+        >
+        <a style="text-decoration: none; color: white" href="pagina.Contato"
+          >Contato</a
+        >
+        <a href="https://www.youtube.com/"
+          ><button style="border-radius: 5px; border: 50px" type="button">
+            Baixar Aplicativo
+          </button></a
+        >
+      </nav>
     </header>
-    <div class="apresentacao">
+    <section class="apresentacao">
+      <div class="left">
         <h1 class="titulo">Zoetrope</h1>
         <h2 class="subtitulo">Sua Nova Rede Social</h2>
-        <p class="paragrafo">Descubra, compartilhe e conecte-se com outros apaixonados por entretenimento. </p>
-        <img class="apple" src="../Apple.png" alt="download AppStore">
-        <img src="../Google.png" alt="download GooglePlay">
-        <img src="../img.png" alt="ilustração de pessoas com celulares">
-    </div>
-</body>
+        <p class="paragrafo">
+          Descubra, compartilhe e conecte-se com outros apaixonados por
+          entretenimento.
+        </p>
+        <img class="apple" src="../Apple.png" alt="download AppStore" />
+        <img src="../Google.png" alt="download GooglePlay" />
+      </div>
+      <img src="../img.png" alt="ilustração de pessoas com celulares" />
+      <img src="./zoetrope4.png" class="apresentacao_detail" />
+    </section>
+    <section class="beneficios">
+      <h2>Benefícios</h2>
+      <div class="row">
+        <img src="./zoetrope3.png" alt="" class="image" />
+        <div class="content">
+          <h3>Descoberta Personalizada</h3>
+          <p>
+            O recurso de Descoberta Personalizada da Zoetrope utiliza algoritmos
+            inteligentes para analisar seus hábitos de consumo de filmes, livros
+            e séries. Com base nas obras que você visualiza, avalia e comenta, o
+            aplicativo gera recomendações personalizadas.
+          </p>
+        </div>
+      </div>
+      <div class="row second">
+        <div class="content">
+          <h3>Leia e escreva resenhas detalhadas</h3>
+          <p>
+            O recurso de Avaliações e Comentários permite aos usuários da
+            Zoetrope expressarem suas opiniões de maneira detalhada sobre
+            filmes, livros e séries. Os usuários podem escrever resenhas
+            completas, incluindo análises críticas, aspectos técnicos, pontos
+            fortes e fracos, além de compartilhar suas experiências pessoais com
+            a comunidade.
+          </p>
+        </div>
+        <img src="./zoetrope.png" alt="" class="image" />
+      </div>
+    </section>
+    <section class="comunidade">
+      <h2>Comunidade Zoetrope</h2>
+      <div class="row">
+        <div class="estatistica">
+          <p class="qtd">+200M</p>
+          <span class="qtd-footer">
+            <img src="./group1.png" alt="" class="icone" />
+            Download
+          </span>
+        </div>
+        <span class="detail"></span>
+        <div class="estatistica">
+          <p class="qtd">+480M</p>
+          <span class="qtd-footer">
+            <img src="./ios-people-outline.png" alt="" class="icone" />
+            Membros
+          </span>
+        </div>
+        <span class="detail"></span>
+        <div class="estatistica">
+          <p class="qtd">+18K</p>
+          <span class="qtd-footer">
+            <img src="./ios-paw-outline.png" alt="" class="icone" />
+            Comunidades
+          </span>
+        </div>
+        <img src="./Vector.png" alt="" class="wave" />
+      </div>
+    </section>
+  </body>
 </html>
